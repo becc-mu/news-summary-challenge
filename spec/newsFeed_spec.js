@@ -1,7 +1,7 @@
 let listHeadlines;
 
 console.log('should show a list of headlines')
-newsFeed = new NewsFeed();
+const newsFeed = new NewsFeed();
 newsFeed.add("Breaking")
 newsFeed.add("News")
 newsFeed.add("politics")
